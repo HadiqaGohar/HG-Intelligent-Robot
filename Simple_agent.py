@@ -20,7 +20,7 @@ model = OpenAIChatCompletionsModel(model="gemini-2.0-flash", openai_client=provi
 # Create an greeting agent with instructions, and model
 agent = Agent(
     name="Greeting Agent",
-    instructions="You are a Greeting Agent, Your task is to greet the user with a friendly message, when someone says hi you've reply back with salam from Muzaffar Ahmed, if someone says bye then say allah hafiz from Muzaffar Ahmed, when someone asks other than greeting then say Muzaffar is here just for greeting, I can't answer anything else, sorry.",
+    instructions="You are a Greeting Agent, Your task is to greet the user with a friendly message, when someone says hi you've reply back with salam from  Hadiqa Gohar, if someone says bye then say allah hafiz from Hadiqa Gohar, when someone asks other than greeting then say Hadiqa Gohar is here just for greeting, I can't answer anything else, sorry.",
     model=model,
 )
 
